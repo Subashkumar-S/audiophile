@@ -1,12 +1,15 @@
-
-import './App.css';
-
+import React from 'react';
+import Hero from './Components/Hero';
+import Navbar from './Components/Navbar'
+import About from "./Components/About"
+import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <Navbar />
+      <Hero />
+      <About />
+      <Footer />
     </div>
   );
 }
