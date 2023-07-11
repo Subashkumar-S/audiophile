@@ -5,18 +5,18 @@ import bestGearDesktop from "../assets/home/desktop/image-best-gear.jpg"
 
 const About = () => {
   return (
-    <section className='lg:flex lg:flex-row-reverse text-center lg:justify-between md:px-[13vw] lg:text-left lg:gap-10'>
+    <section className='lg:flex lg:flex-row-reverse text-center lg:justify-between md:px-[13vw] px-8 lg:text-left lg:gap-10'>
       <picture>
       <source
           srcSet={bestGearDesktop}
-          media="(min-width: 1024px)" // Apply this image for medium screens (tailwind responsive utility class)
+          media="(min-width: 1024px)" 
         />
       <source
           srcSet={bestGearTablet}
-          media="(min-width: 368px)" // Apply this image for small screens (tailwind responsive utility class)
+          media="(min-width: 368px)"
         />
         <img
-          src={bestGearMobile} // Fallback image for unsupported browsers or screen sizes
+          src={bestGearMobile} 
           alt="Best gear"
           className="max-w-full"
         />

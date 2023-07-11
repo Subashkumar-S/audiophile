@@ -1,13 +1,13 @@
 import React from 'react';
 import Hero from './Components/Hero';
-import Navbar from './Components/Navbar'
 import About from "./Components/About"
 import Footer from './Components/Footer';
+import ProductNav from './Components/ProductNav';
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div className="App overflow-hidden">
       <Hero />
+      <ProductNav />
       <About />
       <Footer />
     </div>
